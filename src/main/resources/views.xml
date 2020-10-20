@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="login" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/login.jsp"></property>
+    	</bean>
+    	
+    	<bean id="register" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/register.jsp"></property>
+    	</bean>
+    	
+    	<bean id="home" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/home.jsp"></property>
+    	</bean>
+    	
+    	
+    	<bean id="error" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/error.jsp"></property>
+    	</bean>
+    	
+    	<bean id="checklist_form" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/checklist_form.jsp"></property>
+    	</bean>
+    	
+    	<bean id="academics" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/academics.jsp"></property>
+    	</bean>
+    	
+    	<bean id="projects" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/projects.jsp"></property>
+    	</bean>
+    	
+    	<bean id="courses" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/certificates.jsp"></property>
+    	</bean>
+    	
+    	<bean id="skills" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/skills.jsp"></property>
+    	</bean>
+    	
+ 		<bean id="internships" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/intern.jsp"></property>
+    	</bean>
+    	
+    	<bean id="staffs" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/staffRegister.jsp"></property>
+    	</bean>
+    	
+    	<bean id="communication" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/communication.jsp"></property>
+    	</bean>
+    	
+    	<bean id="staffhome" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/staffhome.jsp"></property>
+    	</bean>
+    	
+    	<bean id="addstudents" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/addStudents.jsp"></property>
+    	</bean>
+    	
+    	<bean id="result" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/result.jsp"></property>
+    	</bean>
+    	
+    	<bean id="online" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/online.jsp"></property>
+    	</bean>
+    	
+    	<bean id="rating" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/rating.jsp"></property>
+    	</bean>
+    	
+    	<bean id="hackerror" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/hackerror.jsp"></property>
+    	</bean>
+    	
+    	<bean id="profile" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/profile.jsp"></property>
+    	</bean>
+    	
+    	<bean id="upload" class="org.springframework.web.servlet.view.JstlView">
+    		<property name="url" value="/WEB-INF/jsp/upload.jsp"></property>
+    	</bean>
+ 	
+ 
+    	
+
+    
+
+</beans>
